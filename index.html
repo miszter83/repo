@@ -67,16 +67,17 @@
             <form action="https://formspree.io/f/xwkyvlpj" method="post">
                 <label>
                     Név
-                    <input type="text" name="Név" id="nev" placeholder="Adja meg a nevét!">
+                    <input type="text" name="Név" id="nev" placeholder="Adja meg a nevét!" required>
                 </label>
                 <label>
                     Email
-                    <input type="email" name="Email" id="Email" placeholder="Adja meg az email címét!">
+                    <input type="email" name="Email" id="Email" placeholder="Adja meg az email címét!" required>
                 </label>
                 <label>
                     Üzenet
-                    <textarea name="Üzenet" id="uzenet" cols="30" rows="10" placeholder="Írja be az üzenetet!"></textarea>
+                    <textarea name="Üzenet" id="uzenet" cols="30" rows="10" placeholder="Írja be az üzenetet!" required></textarea>
                 </label>
+                <button type="submit">Beküldés</button>
             </form>
         </section>
     </main>
