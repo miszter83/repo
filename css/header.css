@@ -1,0 +1,44 @@
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    height: 50vh;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 10;
+    background: #161618;
+}
+
+.myimage {
+    display: block;
+    width: 250px;
+    border-radius: 100%;
+    border:  0.8rem solid #303033;
+    margin: 3rem auto 2rem auto;
+}
+
+.name {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;   
+}
+
+.nav-list-item {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon-item {
+    padding: 1rem;
+}
