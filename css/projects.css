@@ -1,0 +1,31 @@
+.projects {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 5rem;
+    border-bottom: 2px solid var(--orange);
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title {
+    padding-top: 10vh;
+}
+
+.project-img {
+    margin: 1rem auto 1rem auto;
+    max-width: 60vw;
+    display: block;
+    filter: grayscale(50%);
+    padding: 0.8rem;
+    outline: 3px solid var(--black);
+}
+
+p {
+    display: block;
+    text-align: center;
+}

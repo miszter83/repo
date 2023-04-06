@@ -1,0 +1,50 @@
+.kapcsolat {
+    width: 450px;
+    margin: 5rem auto;
+    font-size: 5rem;
+    border-bottom: 2px solid var(--orange);
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    margin: 4rem auto;
+
+
+}
+
+input, textarea {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;   
+    border: 3px solid var(--orange);
+    background: var(--grey);
+}
+
+::placeholder {
+    background-color: var(--grey);
+}
+
+[type="submit"] {
+    display: block;
+    width: fit-content;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2rem auto 0 auto;
+    padding: 1rem 3rem;
+    border: 2px solid var(--orange);
+    border-radius: 35px;
+    color: var(--orange);
+    background: none;
+}
+
+[type="submit"]:hover {
+    background-color: var(--orange);
+    color: whitesmoke;
+    transition: 0.4s;
+    
+}

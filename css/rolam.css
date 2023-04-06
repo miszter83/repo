@@ -1,0 +1,36 @@
+
+.rolam-section {
+    height: 100vh;    
+}
+
+.rolam {
+    font-size: 6rem;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    padding: 4rem 0 0 0;
+    border-bottom: 2px solid var(--orange);
+    /*color: rgba(245, 245, 245, 0.05);*/
+    
+}
+
+.first-row {
+    padding-top: 10vh;
+}
+
+.ability-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh; ;
+
+}
+
+
+.ability-icons .fa-brands {
+    
+    padding: 2rem;
+    font-size: 5rem;
+    color: whitesmoke;
+}

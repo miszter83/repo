@@ -1,0 +1,86 @@
+.fooldal {
+    display: flex;
+    flex-direction: column;
+    background-image: 
+    linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 0%), 
+    url(../assets/working.jpg);
+    height: 100vh;
+    background-size: cover;
+    padding: 30vh;
+    position: relative;
+}
+
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+  
+    
+}
+.fooldal-name {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+
+}
+.job {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+.fooldal-kapcsolat {
+    display: block;
+    width: fit-content;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2rem auto 0 auto;
+    padding: 1rem 3rem;
+    border: 2px solid var(--orange);
+    border-radius: 35px;
+    color: var(--orange);
+}
+
+.fooldal-kapcsolat:hover {
+    background-color: var(--orange);
+    color: whitesmoke;
+    transition: 0.4s;
+}
+
+
+/*== Scroll Down Arrow ==*/
+
+.scroll-down-arrow {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: flex-end;
+    bottom: 1rem;
+    left: 49%;
+    line-height: 32px;
+    z-index: 3;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+    .animated {
+      position: relative;
+      animation: fadeInDown 1.5s infinite;
+    }
+
+    
+  @keyframes fadeInDown {
+    0% {
+      top: -25px;
+      opacity: 0;
+    }
+    100% {
+      top: 10px;
+      opacity: 1;
+    }
+  }
+  

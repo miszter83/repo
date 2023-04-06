@@ -7,21 +7,51 @@
     padding: 0;
 
 }
+
+:root {
+    --orange: #f18c00;
+    --black: #0e0e10;
+    --gray: #303033;
+    --ptatinum: #dcdbdb;
+    --timberwolf: #d3d2d0;
+
+}
+
 html {
     font-size: 16px;
-    
+    scroll-behavior: smooth;
     
 }
 
 body {
     background: #303033;
     color: whitesmoke;
+    font-family: 'Pacifico', cursive;
     font-family: 'Poppins', sans-serif;
-
 }
 
+h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
 
+}
+h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+}
 
+h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    padding: 1rem;
+}
 .main {
     margin-left: 300px;
 }

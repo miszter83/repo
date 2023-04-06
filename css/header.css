@@ -8,20 +8,23 @@
     width: 300px;
     position: fixed;
     z-index: 10;
-    background: #161618;
+    background: var(--black);
 }
 
 .myimage {
     display: block;
     width: 250px;
     border-radius: 100%;
-    border:  0.8rem solid #303033;
+    border:  2px solid var(--orange);
     margin: 3rem auto 2rem auto;
+    
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
     margin-bottom: 2rem;
+    text-align: center;
 }
 .nav-list {
     display: flex;
@@ -35,10 +38,38 @@
     padding-bottom: 2rem;
 }
 
+a:hover {
+    color: var(--orange);
+    transition: 0.2s;
+}
+
 .social-icons {
     display: flex;
+    
 }
 
 .social-icon-item {
     padding: 1rem;
+    
 }
+
+.fa-brands {
+    color: var(--gray);
+    font-size: 1.4rem;
+}
+
+.fa-facebook-f:hover {
+    color: #1778F2;
+}
+
+.fa-linkedin-in:hover {
+    color: #006192;
+}
+
+.fa-github:hover { 
+    color: #FFFFFF;
+}
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+

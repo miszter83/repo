@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    background: var(--black);
+    height: 200px;
+}
+.contact {
+    display: flex;
+    padding: 1rem;
+    
+}
+.footer-item {
+    padding: 0 1rem;
+    letter-spacing: 3px;
+    
+}
+
+.copy {
+    font-size: 1rem;
+}
