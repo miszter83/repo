@@ -48,3 +48,28 @@ input, textarea {
     transition: 0.4s;
     
 }
+
+@media screen and (max-width: 700px) {
+    .kapcsolat {
+        font-size: 3rem;
+        width: 300px;
+    }
+
+}
+@media screen and (max-width: 566px) {
+    .kapcsolat {
+            font-size: 3rem;
+            
+    }
+    .form {
+        margin: 2rem auto;
+        width: 40%;
+    }
+    input, textarea {
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin: 0.5rem;   
+        border: 3px solid var(--orange);
+        background: var(--grey);
+    }
+}

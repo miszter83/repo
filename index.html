@@ -20,11 +20,21 @@
 </head>
 <body>
     <header>
+              
         <nav class="nav-menu"> 
         <div class="nav-image-name">
             <img class="myimage" src="./assets/jacks.jpg" alt="Kép rólam">
             <h2 class="name">Stumpfel Tibor</h2>
-        </div>   
+        </div>
+        <div class="nav-container">
+            <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+            <label for="nav-checkbox">
+                <span class="nav-checkbox__gomb">
+                    <span class="nav-checkbox__vonal"></span>
+                    <span class="nav-checkbox__vonal"></span>
+                    <span class="nav-checkbox__vonal"></span>
+                </span>
+            </label>   
             <ul class="nav-list" >
                 <li class="nav-list-item" ><a href="#fooldal">Főoldal</a></li>
                 <li class="nav-list-item" ><a href="#rolam">Rólam</a></li>
@@ -37,6 +47,7 @@
                 <li class="social-icon-item"><a href="https://www.github.com"><i class="fa-brands fa-github"></i></a></li>
                 <li class="social-icon-item"><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
+        </div>
         </nav>
     </header>
     <main class="main">
@@ -121,8 +132,10 @@
             <a class="footer-item" href="#">Adatvédelmi irányelvek</a>
             <p class="copy" >&copy; 2023 Stumpfel Tibor</p>
         </div>
-
+        <div class="fooldal-top">
+            <a href="#fooldal"><i class="fa-solid fa-chevron-up"></i></a>
+        </div> 
     </footer>
-    
+  
 </body> 
 </html>

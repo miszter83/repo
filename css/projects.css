@@ -29,3 +29,12 @@ p {
     display: block;
     text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+    .projects {
+        font-size: 3rem;
+        width: 275px;
+    }
+
+}
+
