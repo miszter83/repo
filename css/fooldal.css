@@ -40,7 +40,6 @@ h1 {
     margin: 2rem auto 0 auto;
     padding: 1rem 3rem;
     border: 2px solid var(--orange);
-    border-radius: 35px;
     color: var(--orange);
 }
 

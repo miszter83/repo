@@ -23,6 +23,7 @@ input, textarea {
     margin: 1rem;   
     border: 3px solid var(--orange);
     background: var(--grey);
+    width: 100%;
 }
 
 ::placeholder {
@@ -37,7 +38,6 @@ input, textarea {
     margin: 2rem auto 0 auto;
     padding: 1rem 3rem;
     border: 2px solid var(--orange);
-    border-radius: 35px;
     color: var(--orange);
     background: none;
 }
@@ -54,17 +54,18 @@ input, textarea {
         font-size: 3rem;
         width: 300px;
     }
+    .form {
+        margin: 2rem auto;
+        width: 80%;
 
+    }
 }
 @media screen and (max-width: 566px) {
     .kapcsolat {
             font-size: 3rem;
             
     }
-    .form {
-        margin: 2rem auto;
-        width: 40%;
-    }
+   
     input, textarea {
         font-size: 1rem;
         padding: 0.5rem;
