@@ -57,7 +57,7 @@ h1 {
     position: absolute;
     margin: 0 auto;
     align-items: flex-end;
-    bottom: 1rem;
+    bottom: 2rem;
     left: 49%;
     z-index: 3;
     width: 2rem;
@@ -85,6 +85,10 @@ h1 {
 
   @media screen and (max-width: 700px) {
 
+   .fooldal {
+    padding-top: 20vh;
+   }
+
    .fooldal-name {
     font-size: 3rem;
     padding: 1rem;
@@ -93,11 +97,15 @@ h1 {
   
   }
   @media screen and (max-width: 456px){
-  .fooldal-name {
+  
+    .fooldal-name {
       font-size: 2rem;
       padding: 0.5rem;
   }
   .scroll-down-arrow {
     font-size: 1.5rem;
+    bottom: 3rem;
   }
 }
+
+
