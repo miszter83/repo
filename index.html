@@ -69,7 +69,7 @@
         <section class="rolam-section">
             <h2 class="rolam" id="rolam">Rólam</h2>  
            
-                <p class="first-row"><strong>Frontend webfejlesztő</strong> vagyok, ami számomra nem csak munka, de a hobbim is.</p>
+                <p class="first-row"><strong>Frontend webfejlesztő</strong> vagyok, ami számomra nem csak munka, hanem a hobbim is.</p>
                 <p>Tapasztalattal rendelkezem <strong>HTML, CSS, JavaSript, React, Responsive Design, SEO</strong> területen.</p>
                <div class="ability-icons" >
                 <i class="fa-brands fa-html5"></i>
@@ -116,9 +116,18 @@
             <h2 class="kapcsolat" id="kapcsolat">Kapcsolat</h2>
             <p>Forduljon hozzám bizalommal, az alábbi űrlap kitöltésével</p>
             <form class="form" action="https://formspree.io/f/xwkyvlpj" method="post">
-                <input  class="from-input" type="text" name="Név" id="nev" placeholder="Név" required>
-                <input  class="from-input" type="email" name="Email" id="Email" placeholder="Email" required>
-                <textarea class="from-input" name="Üzenet" id="uzenet" cols="30" rows="10" placeholder="Üzenet" required></textarea>
+                <div class="inputBox">
+                <input type="text" name="Név" id="nev" required>
+                <span>Név</span>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="Email" id="nev" required>
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                <textarea name="Üzenet" id="uzenet" cols="30" rows="10" required></textarea>
+                <span>Üzenet</span>
+                </div>
                 <button type="submit">Beküldés</button>
             </form>
         </section>
