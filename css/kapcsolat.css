@@ -11,7 +11,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vh;
+    width: 70%;
+    max-width: 1000px;
     gap: 30px;
     color: var(--black);
     margin: 4rem auto;
@@ -88,7 +89,7 @@
     }
     .form {
         margin: 2rem auto;
-        width: 80%;
+        width: 100%;
 
     }
 }

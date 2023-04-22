@@ -1,5 +1,6 @@
 .projects-header {
     width: 400px;
+    padding-top: 4rem;
     margin: 0 auto;
     font-size: 5rem;
     border-bottom: 2px solid var(--orange);
@@ -38,6 +39,7 @@ p {
 
 @media screen and (max-width: 700px) {
     .projects-header {
+        
         font-size: 3rem;
         width: 275px;
     }
@@ -45,6 +47,7 @@ p {
 }
 
 @media screen and (max-width: 566px) {
+     
     .project-img {
         max-width: 100%;
         filter: grayscale(50%);
