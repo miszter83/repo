@@ -34,15 +34,12 @@
             <h2 class="name"><a href="#fooldal">Stumpfel Tibor</a></h2>
         </div>
         <div class="nav-container">
-            <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
-            <label for="nav-checkbox">
-                <span class="nav-checkbox__gomb">
-                    <span class="nav-checkbox__vonal vonal_elso"></span>
-                    <span class="nav-checkbox__vonal vonal_masodik"></span>
-                    <span class="nav-checkbox__vonal vonal_harmadi"></span>
-                </span>
-            </label>   
-            <ul class="nav-list" >
+            <div class="nav-container">
+                <input type="checkbox" id="nav-checkbox" class="nav-checkbox" />
+                <label for="nav-checkbox" class="hamburger-button">
+                  <span class="hamburger-lines"> </span>
+                </label>
+            <ul class="nav-list" id="menuList" >
                 <li class="nav-list-item" ><a href="#fooldal">Főoldal</a></li>
                 <li class="nav-list-item" ><a href="#rolam">Rólam</a></li>
                 <li class="nav-list-item" ><a href="#projektek">Projektek</a></li>
@@ -150,6 +147,6 @@
             <a href="#fooldal"><i class="fa-solid fa-chevron-up"></i></a>
         </div> 
     </footer>
-  
+  <script src="./main.js"></script>
 </body> 
 </html>
