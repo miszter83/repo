@@ -13,3 +13,14 @@ function CheckReset() {
 function Hmenu() {
   OpenC.classList.toggle("active");
 }
+
+
+let scrollTopBtn = document.getElementById("scroll-top-btn");
+
+window.addEventListener("scroll", () => {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+    scrollTopBtn.style.display = "block";
+  } else {
+    scrollTopBtn.style.display = "none";
+  }
+});

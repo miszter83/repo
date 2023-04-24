@@ -29,28 +29,29 @@
     <header>
               
         <nav class="nav-menu"> 
-        <div class="nav-image-name">
-            <img class="myimage" src="./assets/jacks-newbg.png" alt="A kép csak illusztráció">
-            <h2 class="name"><a href="#fooldal">Stumpfel Tibor</a></h2>
-        </div>
-        <div class="nav-container">
+            <div class="nav-image-name">
+                <img class="myimage" src="./assets/jacks-newbg.png" alt="A kép csak illusztráció">
+                <h2 class="name"><a href="#fooldal">Stumpfel Tibor</a></h2>
+            </div>
             <div class="nav-container">
-                <input type="checkbox" id="nav-checkbox" class="nav-checkbox" />
-                <label for="nav-checkbox" class="hamburger-button">
-                  <span class="hamburger-lines"> </span>
-                </label>
-            <ul class="nav-list" id="menuList" >
-                <li class="nav-list-item" ><a href="#fooldal">Főoldal</a></li>
-                <li class="nav-list-item" ><a href="#rolam">Rólam</a></li>
-                <li class="nav-list-item" ><a href="#projektek">Projektek</a></li>
-                <li class="nav-list-item" ><a href="#kapcsolat">Kapcsolat</a></li>
-            </ul>
-            <ul class="social-icons">
-                <li class="social-icon-item"><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li class="social-icon-item"><a href="https://github.com/miszter83?tab=repositories"><i class="fa-brands fa-github"></i></a></li>
-                <li class="social-icon-item"><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
-            </ul>
-        </div>
+                <div class="nav-container">
+                    <input type="checkbox" id="nav-checkbox" class="nav-checkbox" />
+                    <label for="nav-checkbox" class="hamburger-button">
+                    <span class="hamburger-lines"> </span>
+                    </label>
+                <ul class="nav-list" id="menuList" >
+                    <li class="nav-list-item" ><a href="#fooldal">Főoldal</a></li>
+                    <li class="nav-list-item" ><a href="#rolam">Rólam</a></li>
+                    <li class="nav-list-item" ><a href="#projektek">Projektek</a></li>
+                    <li class="nav-list-item" ><a href="#kapcsolat">Kapcsolat</a></li>
+                </ul>
+                <ul class="social-icons">
+                    <li class="social-icon-item"><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li class="social-icon-item"><a href="https://github.com/miszter83?tab=repositories"><i class="fa-brands fa-github"></i></a></li>
+                    <li class="social-icon-item"><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+                </div>
+            </div>    
         </nav>
     </header>
     <main class="main">
@@ -122,7 +123,7 @@
                 <span>Név</span>
                 </div>
                 <div class="inputBox">
-                    <input type="email" name="Email" id="nev" required>
+                    <input type="email" name="Email" id="email" required>
                     <span>Email</span>
                 </div>
                 <div class="inputBox">
@@ -135,15 +136,15 @@
     </main>
     <footer>
         <div class="contact">
-            <a class="footer-item" href=""><i class=" fa-solid fa-phone-volume"></i>&nbsp;+3630/123-45678</a>
-            <a class="footer-item" href=""><i class=" fa-regular fa-envelope"></i>&nbsp;miszter83@gmail.com</a>
+            <div class="footer-item"><i class=" fa-solid fa-phone-volume"></i>&nbsp;+3630/123-45678</div>
+            <div class="footer-item"><i class=" fa-regular fa-envelope"></i>&nbsp;miszter83@gmail.com</div>
         </div>
         <div class="footer-container">
             <a class="footer-item" href="#">Impresszum</a>
             <a class="footer-item" href="#">Adatvédelmi irányelvek</a>
             <p class="copy" >&copy; 2023 Stumpfel Tibor</p>
         </div>
-          <a href="#fooldal"><div class="fooldal-top"><i class="fa-solid fa-chevron-up"></i></div></a>
+        <a id="scroll-top-btn" href="#fooldal"><div class="fooldal-top"><i class="fa-solid fa-chevron-up"></i></div></a>  
     </footer>
   <script src="./main.js"></script>
 </body> 
